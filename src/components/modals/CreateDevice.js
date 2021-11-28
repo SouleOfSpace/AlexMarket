@@ -9,6 +9,7 @@ const CreateDevice = ({show, onHide}) => {
     const addInfo = () => {
         setInfo([...info, {title: '', description: '', number: Date.now()}])
     }
+    console.log('safasf')
 
     const removeInfo = (number) => {
         setInfo(info.filter(i => i.number !== number))
